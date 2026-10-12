@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe00000000000000000000000000000000000000000">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>00000000</cNF>
+        <natOp>VENDA</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>12345</nNF>
+        <dhEmi>2026-10-01T10:00:00-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>12345678000199</CNPJ>
+        <xNome>Fornecedor Exemplo Ltda</xNome>
+      </emit>
+      <dest>
+        <CNPJ>98765432000100</CNPJ>
+        <xNome>Cliente Exemplo SA</xNome>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>0001</cProd>
+          <xProd>Peça Exemplo A</xProd>
+          <NCM>87082900</NCM>
+          <CFOP>5102</CFOP>
+          <qCom>2.0000</qCom>
+          <vUn>100.00</vUn>
+          <vProd>200.00</vProd>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>0</modBC>
+              <vBC>200.00</vBC>
+              <pICMS>12.00</pICMS>
+              <vICMS>24.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <pPIS>1.65</pPIS>
+              <vPIS>3.30</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>15.20</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>0002</cProd>
+          <xProd>Peça Exemplo B</xProd>
+          <NCM>84099900</NCM>
+          <CFOP>6102</CFOP>
+          <qCom>1.0000</qCom>
+          <vUn>500.00</vUn>
+          <vProd>500.00</vProd>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <vBC>500.00</vBC>
+              <pICMS>17.00</pICMS>
+              <vICMS>85.00</vICMS>
+            </ICMS00>
+          </ICMS>
+        </imposto>
+      </det>
+    </infNFe>
+  </NFe>
+</nfeProc>
